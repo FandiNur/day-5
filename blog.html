@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="blog.css" />
+    <link rel="stylesheet" href="navbar.css" />
+    <script
+      src="https://kit.fontawesome.com/9abab0ea8b.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>PROJECT</title>
+  </head>
+  <body>
+    <!-- header -->
+    <nav>
+      <div class="nav-left">
+        <ul>
+          <img src="assets/logo.png" />
+          <li>
+            <a href="index.html">HOME</a>
+          </li>
+
+          <li>
+            <a href="blog.html">My Project</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="nav-right">
+        <a href="Contact.html">Contact Me</a>
+      </div>
+    </nav>
+    <!-- body -->
+    <section>
+      <div class="pages1">
+        <form onsubmit="addProject(event)">
+          <h2>ADD MY PROJECT</h2>
+          <div class="form-name">
+            <label for="input-title">Project Name</label>
+            <input type="text" id="input-title" placeholder="Title Name" />
+          </div>
+
+          <div class="form-date">
+            <div class="star-date">
+              <label for="startDate">Start Date</label>
+              <input type="date" id="startDate" placeholder="Start Date" />
+            </div>
+
+            <div class="end-date">
+              <label for="endDate">End Date</label>
+              <input type="date" id="endDate" placeholder="End Date" />
+            </div>
+          </div>
+
+          <label for="input-description">Description</label>
+          <textarea
+            class="form-description"
+            id="input-description"
+            placeholder="Project Description"
+          ></textarea>
+
+          <p>Technologies</p>
+          <div class="form-tecnologies">
+            <div class="checkbox-left">
+              <div>
+                <input type="checkbox" id="input-js" />
+                <label for="">Node Js</label>
+              </div>
+              <div>
+                <input type="checkbox" id="input-java" />
+                <label for="">Java</label>
+              </div>
+            </div>
+            <div class="checkbox-right">
+              <div>
+                <input type="checkbox" id="input-react" />
+                <label for="">React Js</label>
+              </div>
+              <div>
+                <input type="checkbox" id="input-php" />
+                <label for="">Php</label>
+              </div>
+            </div>
+          </div>
+          
+          <div class="form-image">
+            
+            <label class="image-label"for="input-image"><P>attach </P><i  class="fa-solid fa-paperclip"></i></label>
+            <input type="file" id="input-image" hidden/> 
+          </div>
+          
+          <div class="form-button">
+            <button class="button-page">submit</button>
+          </div>
+        </form>
+      </div>
+      <div class="page2">
+        <!-- main-content -->
+        <div class="blog-mc"> 
+          <div>
+          <div id="contents" class="main-content"> </div>
+          </div>
+        </div>
+      </div>
+    </section>
+      
+        
+    
+  </body>
+  <script src="blog.js"></script>
+</html>

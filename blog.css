@@ -1,0 +1,202 @@
+body{ 
+  height: 93vh;
+  background-color: #cccccc;
+}
+/* landing page */
+.pages1 { 
+  display: flex;
+  justify-content: center;
+  align-items:center
+  
+}
+/* card */
+form{
+  border: 1px solid black;
+  margin:4% ;
+  border-radius: 4%;
+  box-shadow: 0 0 20px black;
+  padding: 20px;
+  background-color: #dddddd;
+  width: 500px;
+
+}
+/* title page */
+h2 {
+  display: flex;
+  justify-content: center;
+}
+/* tille-input-name */
+.form-name input {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 100%;
+  font-size: 17px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3px;
+}
+
+/* card date */
+.form-date {
+  /* border: 1px solid black; */
+  position: relative;
+  display: flex;
+  margin: 10px;
+
+}
+.form-date input {
+  display: flex;
+  border-radius: 10px;
+  padding: 3px;
+  font-size: 16px;
+  justify-content: center;
+  align-items: center;
+}
+
+.star-date , .end-date {
+  /* border: 1px solid black ; */
+  width: 100%;
+  font-size: 17px;
+
+  
+}
+/* input-description */
+.form-description{
+  border: 1px solid rgb(0, 0, 0) ; 
+  border-radius: 10px;
+  width: 100%;
+  font-size: 17px;
+  height: 100px;
+}
+/* input-tecnologie */
+.form-tecnologies {
+  /* border: 1px solid black ; */
+  display: flex;
+  justify-content: space-evenly;
+  margin: 15px;
+  font-size: 15px;
+}
+/* input image */
+.form-image {
+  /* border: 1px solid black; */
+  width: 100%;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+}
+.form-image{
+  height: 25px;
+  
+}
+.form-image > label{
+  display: flex;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 0 0 4px black;
+  justify-content: space-between;
+  align-items: center;
+  
+  width: 80%;
+  display: flex;
+  padding: 5px;
+}
+  /* .form-image label > p {
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(109, 109, 109);
+    
+} */
+
+.form-button {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;;
+  border-radius: 20%;
+}
+
+
+.button-page {
+  border-radius: 10px;
+  background-color: white;
+}
+
+.form-button >button{
+background-color: rgb(199, 199, 199);
+box-shadow: 0 0 30px rgb(255, 255, 255);
+}
+.form-button >button :hover{
+  opacity: 300ms;
+  box-shadow: 0 0 10px  rgb(0, 0, 0);
+}
+
+
+
+.page2 {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+/* BUTTON UP */
+.js-button{
+  /* border: 1px solid rgb(255, 0, 0); */
+  display: flex;
+  justify-content: flex-end;
+  height: 20px;
+  width: 100%;
+}
+.js-page {
+  background-color: #ffffff;
+  margin: 20px;
+  border: 1px solid rgb(128, 71, 71);
+  box-shadow: 0 0 20px  grey;
+  width: 40%;
+  padding: 1%;
+}
+/* HEADING */
+.js-head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid  rgb(0, 0, 0);
+  font-size: 18px;
+  
+}
+.js-image{
+  border: 1px solid black;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image1 {
+  width: 100%;
+  
+}
+/* paragraff */
+.js-content {
+  border: 1px solid  rgb(8, 93, 119);
+  width: 100%;
+}
+.js-content >p {
+  font-size: 15px;
+}
+
+.content-duration {
+  font-size: 13px;
+  display: flex;
+  justify-content: flex-end;
+  opacity: 60%;
+}
+
+.checkboxx{
+  display: flex;
+}
+.checkboxx >p {
+  size: 20px;
+  display: flex;
+  
+}

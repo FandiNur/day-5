@@ -1,0 +1,124 @@
+.container{
+  /* background-color: blue; */
+  
+  display: flex;
+  height: 93vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #cccccc;
+ 
+}
+/* landing page 2 */
+.page-profil{
+  border: 1px solid rgb(0, 0, 0);
+  box-shadow: 0 0 30px black;
+  background-color: white;
+  border-radius: 5px ;
+  display: flex;
+  margin: 100px;
+  padding: 20px;  
+
+}
+/* gambar,font */
+.card {
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+  border: 1px solid grey;
+  border-radius: 7px ;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;;
+  position: relative;
+}
+.profil-right {
+  /* border: 1px solid black; */
+ flex : 30%;
+}
+.card >h3 {
+  font-size: 30px;
+
+}
+/* text, */
+.profil-left {
+  
+  background-color: dddddd;
+  flex: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.profil {
+  /* border: 1px solid black; */
+  width: 90%;
+ 
+}
+.page1{
+  /* border: 1px solid black; */
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.gambar-1{
+  width: 100%;
+  text-decoration: none;
+}
+
+.mail-cv{
+  /* border: 1px solid black; */
+  width: 70%;
+  display: flex;
+  text-align: center;
+ 
+}
+
+
+
+.mail-cv a {
+  /* background-color: black;  */
+  /* border: 1px; */
+  /* border-radius: 10%; */
+  text-decoration: none;
+  /* color: white; */
+  padding: 7px 5px 0px 5px;
+  margin-left: 75px ;
+}
+.icon {
+    width: 35px;
+}
+.contact1 {
+  background-color: black; 
+  border: 1px;
+  height: 30px;
+  border-radius: 20%;
+  text-decoration: none;
+  color: white;
+}
+
+.social-media {
+  /* border: 1px solid black; */
+
+  list-style-type: none;
+  width: 50%;
+  margin-top: 10px;
+  font-size: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0;
+}
+.social-media >li{
+  text-decoration: none;
+  margin: 0 auto;
+}
+
+.social-media :hover {
+  opacity: 300ms;
+   box-shadow: 0 0 10px  rgb(211, 211, 211);
+}
